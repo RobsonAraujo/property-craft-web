@@ -2,10 +2,8 @@ import Link from "next/link";
 import { Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer className="bg-black text-white py-12">
+    <footer className="bg-brand-900 text-white py-12">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Links */}
@@ -15,7 +13,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/owners"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   Owners
                 </Link>
@@ -23,7 +21,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   Services
                 </Link>
@@ -31,7 +29,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/faqs"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   FAQs
                 </Link>
@@ -39,7 +37,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
@@ -47,7 +45,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/process"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   Our Process
                 </Link>
@@ -55,7 +53,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   Blog
                 </Link>
@@ -63,9 +61,17 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy-policy"
+                  className="text-white/80 hover:text-white transition-colors"
+                >
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -76,19 +82,19 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-3">
               <div>
-                <p className="text-gray-400">Call or Text:</p>
+                <p className="text-white/80">Call or Text:</p>
                 <a
                   href="tel:6173220033"
-                  className="text-white hover:text-gray-300 transition-colors font-medium"
+                  className="text-white hover:text-white/80 transition-colors font-medium"
                 >
                   (617) 322-0033
                 </a>
               </div>
               <div>
-                <p className="text-gray-400">Email:</p>
+                <p className="text-white/80">Email:</p>
                 <a
                   href="mailto:hello@propertycraft.com"
-                  className="text-white hover:text-gray-300 transition-colors font-medium"
+                  className="text-white hover:text-white/80 transition-colors font-medium"
                 >
                   hello@propertycraft.com
                 </a>
@@ -98,7 +104,7 @@ export default function Footer() {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   <Instagram className="w-5 h-5" />
                 </a>
@@ -106,7 +112,7 @@ export default function Footer() {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="text-white/80 hover:text-white transition-colors"
                 >
                   <Facebook className="w-5 h-5" />
                 </a>
@@ -120,7 +126,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h5 className="text-white font-medium mb-2">Braintree</h5>
-                <address className="text-gray-400 not-italic text-sm leading-relaxed">
+                <address className="text-white/80 not-italic text-sm leading-relaxed">
                   150 Grossman Drive, Suite 205
                   <br />
                   Braintree, MA 02184
@@ -128,7 +134,7 @@ export default function Footer() {
               </div>
               <div>
                 <h5 className="text-white font-medium mb-2">Boston</h5>
-                <address className="text-gray-400 not-italic text-sm leading-relaxed">
+                <address className="text-white/80 not-italic text-sm leading-relaxed">
                   82 Pembroke Street
                   <br />
                   South End, MA 02118
@@ -139,17 +145,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-center md:text-left">
-              <Link
-                href="/privacy-policy"
-                className="text-gray-400 hover:text-white transition-colors text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </div>
-            <div className="text-center text-xs text-gray-500 leading-relaxed max-w-3xl">
+        <div className="border-t border-white/20 mt-8 pt-8">
+          <div className="text-center">
+            <div className="text-xs text-white/60 leading-relaxed max-w-3xl mx-auto">
               Betterway New England, LLC, doing business as PropertyCraft
               Management Company | Massachusetts Home Improvement Contractor
               License #214004
