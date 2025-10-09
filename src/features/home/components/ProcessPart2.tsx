@@ -1,40 +1,30 @@
 import React from "react";
 
-const Process = () => {
+const ProcessPart2 = () => {
   const steps = [
     {
-      number: "1",
-      title: "Owner & Property Onboarding",
+      number: "4",
+      title: "Leasing",
       description:
-        "We start by understanding your property goals and conducting a comprehensive property assessment to ensure everything is properly documented.",
+        "We handle all lease negotiations, tenant screening, background checks, and lease execution to ensure you get the best tenants.",
     },
     {
-      number: "2",
-      title: "Property Preparation",
+      number: "5",
+      title: "Rent Collection & Support",
       description:
-        "We prepare your property to be move-in ready, ensuring all systems are working, cleaning is completed, and any necessary repairs are addressed.",
+        "We manage rent collection, handle tenant communications, and provide ongoing support to ensure a smooth rental experience.",
     },
     {
-      number: "3",
-      title: "Marketing & Showings",
+      number: "6",
+      title: "Property Maintenance",
       description:
-        "We market your property across multiple platforms and conduct professional showings to find qualified tenants quickly.",
+        "We coordinate all maintenance requests, conduct regular property inspections, and ensure your property remains in excellent condition.",
     },
   ];
 
   return (
-    <section className="py-10 bg-white sm:py-16 lg:pb-8 lg:pt-24">
+    <section className="py-8 bg-gray-50 sm:py-12 lg:pt-8 lg:pb-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            How does it work?
-          </h2>
-          <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-            Our proven process ensures your property is managed professionally
-            from start to finish.
-          </p>
-        </div>
-
         <div className="relative mt-12 lg:mt-20">
           <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
             <svg
@@ -76,4 +66,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default ProcessPart2;
