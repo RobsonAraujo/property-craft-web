@@ -1,6 +1,7 @@
 import React from "react";
 import { Header, Hero, Process } from "./components";
 import Footer from "../../app/components/Footer";
+import BlueBanner from "../../components/BlueBanner";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Header />
       <Hero />
       <Process />
+      <BlueBanner />
       <Footer />
     </div>
   );
