@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Hero, Process } from "./components";
+import { Header, Hero, Process, ServiceAreas, CTABanner } from "./components";
 import ProcessPart2 from "./components/ProcessPart2";
 import Footer from "../../app/components/Footer";
 import BlueBanner from "../../components/BlueBanner";
@@ -13,6 +13,8 @@ const HomePage = () => {
       <Process />
       <ProcessPart2 />
       <BlueBanner />
+      <ServiceAreas />
+      <CTABanner />
       <AssetTypes />
       <Footer />
     </div>
