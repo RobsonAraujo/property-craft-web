@@ -19,7 +19,7 @@ export default function BlueBanner() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Let&apos;s make that happen!
           </h2>
-          
+
           <p className="text-xl md:text-2xl lg:text-3xl font-medium text-white/90 mb-8 leading-relaxed">
             You&apos;ve invested in property to get more out of life.
           </p>
@@ -40,9 +40,7 @@ export default function BlueBanner() {
                 <div className="flex items-center justify-center w-10 h-10 bg-brand-700 rounded-lg">
                   <value.icon className="w-5 h-5 text-brand-200" />
                 </div>
-                <span className="text-base font-medium">
-                  {value.text}
-                </span>
+                <span className="text-base font-medium">{value.text}</span>
               </div>
             ))}
           </div>
