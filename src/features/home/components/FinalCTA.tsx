@@ -12,7 +12,7 @@ const FinalCTA = () => {
             <span className="block xl:inline">
               <HighlightText>maximize your property</HighlightText>
             </span>{" "}
-            <span className="block text-brand-800 xl:inline">investment?</span>
+            <span className="block  xl:inline">investment?</span>
           </h1>
           <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Join property owners who trust PropertyCraft to manage their
