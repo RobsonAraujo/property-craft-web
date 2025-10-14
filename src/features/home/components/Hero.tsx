@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import HighlightText from "../../../components/HighlightText";
 
 const Hero = () => {
   const [formData, setFormData] = useState({
@@ -31,10 +32,7 @@ const Hero = () => {
         <div className="grid items-center max-w-5xl grid-cols-1 mx-auto gap-y-8 lg:grid-cols-5 gap-x-16">
           <div className="max-w-md mx-auto text-center lg:max-w-none lg:col-span-3">
             <h1 className="text-4xl font-normal text-white uppercase sm:text-5xl lg:text-6xl xl:text-8xl">
-              Property{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-brand-300">
-                Management
-              </span>
+              Property <HighlightText>Management</HighlightText>
             </h1>
             <p className="mt-6 text-lg font-normal text-white sm:text-xl">
               PropertyCraft aims to tangibly improve the value of your

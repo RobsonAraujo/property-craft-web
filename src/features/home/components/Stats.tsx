@@ -1,4 +1,5 @@
 import React from "react";
+import HighlightText from "../../../components/HighlightText";
 
 const Stats = () => {
   const stats = [
@@ -29,7 +30,7 @@ const Stats = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Trusted by Property Owners
+            Trusted by <HighlightText>Property Owners</HighlightText>
           </h2>
           <p className="mt-4 text-base text-white/80 max-w-2xl mx-auto">
             Our track record speaks for itself

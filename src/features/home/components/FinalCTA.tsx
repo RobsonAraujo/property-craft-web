@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import HighlightText from "../../../components/HighlightText";
 
 const FinalCTA = () => {
   return (
@@ -8,11 +9,8 @@ const FinalCTA = () => {
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">Ready to </span>
-            <span
-              className="block xl:inline px-2 rounded"
-              style={{ backgroundColor: "#FFE66D" }}
-            >
-              maximize your property
+            <span className="block xl:inline">
+              <HighlightText>maximize your property</HighlightText>
             </span>{" "}
             <span className="block text-brand-800 xl:inline">investment?</span>
           </h1>
