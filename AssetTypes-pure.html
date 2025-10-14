@@ -1,0 +1,206 @@
+<style>
+  .asset-types-wrapper {
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+  }
+
+  .asset-types-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .asset-types-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .asset-types-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .asset-types-subtitle {
+    font-size: 1.125rem;
+    color: #4b5563;
+    max-width: 48rem;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .asset-types-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .asset-types-card {
+    position: relative;
+    width: 100%;
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: all 0.5s;
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+
+  .asset-types-card:hover {
+    background-color: #f3f4f6;
+  }
+
+  .asset-types-icon-wrapper {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid #e5e7eb;
+  }
+
+  .asset-types-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: #1f3e5a;
+  }
+
+  .asset-types-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    transition: all 0.5s;
+  }
+
+  .asset-types-card-subtitle {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+  }
+
+  .asset-types-card-description {
+    font-size: 1rem;
+    color: #4b5563;
+    transition: all 0.5s;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 640px) {
+    .asset-types-wrapper {
+      padding: 5rem 1.5rem;
+    }
+
+    .asset-types-container {
+      padding: 0 1.5rem;
+    }
+
+    .asset-types-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .asset-types-card {
+      width: calc(40% - 1rem);
+      max-width: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .asset-types-wrapper {
+      padding: 6rem 2rem;
+    }
+
+    .asset-types-container {
+      padding: 0 2rem;
+    }
+
+    .asset-types-header {
+      margin-bottom: 4rem;
+    }
+
+    .asset-types-title {
+      font-size: 3rem;
+    }
+
+    .asset-types-grid {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    .asset-types-card {
+      width: calc(33.333% - 1.5rem);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .asset-types-card {
+      padding: 2rem;
+    }
+  }
+</style>
+
+<div class="asset-types-wrapper">
+  <div class="asset-types-container">
+    <div class="asset-types-header">
+      <h2 class="asset-types-title">
+        Asset Types We Operate
+      </h2>
+      <p class="asset-types-subtitle">
+        Specialized property management services tailored to your investment type
+      </p>
+    </div>
+
+    <div class="asset-types-grid">
+      <div class="asset-types-card">
+        <div class="asset-types-icon-wrapper">
+          <svg class="asset-types-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        </div>
+        <h4 class="asset-types-card-title">Multi-Family</h4>
+        <p class="asset-types-card-subtitle">Apartment Complexes</p>
+        <p class="asset-types-card-description">
+          Professional management of multi-unit residential properties
+        </p>
+      </div>
+
+      <div class="asset-types-card">
+        <div class="asset-types-icon-wrapper">
+          <svg class="asset-types-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M3 7v1a3 3 0 003 3h12a3 3 0 003-3V7m-18 0l9-4 9 4M3 7h18M5 21V10h14v11M9 21v-4a1 1 0 011-1h4a1 1 0 011 1v4" />
+          </svg>
+        </div>
+        <h4 class="asset-types-card-title">Mixed-Use</h4>
+        <p class="asset-types-card-subtitle">Residential + Commercial</p>
+        <p class="asset-types-card-description">
+          Strategic management combining residential and commercial spaces
+        </p>
+      </div>
+
+      <div class="asset-types-card">
+        <div class="asset-types-icon-wrapper">
+          <svg class="asset-types-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          </svg>
+        </div>
+        <h4 class="asset-types-card-title">Single Family Rental</h4>
+        <p class="asset-types-card-subtitle">Individual Homes</p>
+        <p class="asset-types-card-description">
+          Comprehensive management of individual residential properties
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+

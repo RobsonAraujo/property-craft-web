@@ -1,0 +1,206 @@
+<style>
+  .blue-banner-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1f3e5a;
+    padding: 4rem 0;
+  }
+
+  .blue-banner-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .blue-banner-content {
+    text-align: center;
+    color: #ffffff;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .blue-banner-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #dcebf9;
+    background-color: rgba(46, 93, 135, 0.5);
+    border-radius: 9999px;
+    border: 1px solid #2e5d87;
+  }
+
+  .blue-banner-badge-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #94c3ed;
+  }
+
+  .blue-banner-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .blue-banner-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .blue-banner-description-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3rem;
+  }
+
+  .blue-banner-description {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 48rem;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .blue-banner-values {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .blue-banner-value-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .blue-banner-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #2e5d87;
+    border-radius: 0.5rem;
+  }
+
+  .blue-banner-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #b8d7f3;
+  }
+
+  .blue-banner-value-text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  @media (min-width: 640px) {
+    .blue-banner-wrapper {
+      padding: 5rem 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .blue-banner-title {
+      font-size: 3rem;
+    }
+
+    .blue-banner-subtitle {
+      font-size: 1.5rem;
+    }
+
+    .blue-banner-description {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .blue-banner-wrapper {
+      padding: 6rem 0;
+    }
+
+    .blue-banner-title {
+      font-size: 3.75rem;
+    }
+
+    .blue-banner-subtitle {
+      font-size: 1.875rem;
+    }
+  }
+</style>
+
+<div class="blue-banner-wrapper">
+  <div class="blue-banner-container">
+    <div class="blue-banner-content">
+      <div class="blue-banner-badge">
+        <svg class="blue-banner-badge-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3L8 7.5L3 9l4.5 4.5L6 19l6-3 6 3-1.5-5.5L21 9l-5-1.5L12 3z"/>
+        </svg>
+        <span>Your Success is Our Mission</span>
+      </div>
+
+      <h2 class="blue-banner-title">
+        Let's make that happen!
+      </h2>
+
+      <p class="blue-banner-subtitle">
+        You've invested in property to get more out of life.
+      </p>
+
+      <div class="blue-banner-description-wrapper">
+        <p class="blue-banner-description">
+          We're here to ensure your investment works harder for you,
+          delivering the lifestyle and returns you deserve.
+        </p>
+      </div>
+
+      <div class="blue-banner-values">
+        <div class="blue-banner-value-item">
+          <div class="blue-banner-icon-box">
+            <svg class="blue-banner-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="6"/>
+              <circle cx="12" cy="12" r="2"/>
+            </svg>
+          </div>
+          <span class="blue-banner-value-text">Goal-Focused</span>
+        </div>
+
+        <div class="blue-banner-value-item">
+          <div class="blue-banner-icon-box">
+            <svg class="blue-banner-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <span class="blue-banner-value-text">Client-First</span>
+        </div>
+
+        <div class="blue-banner-value-item">
+          <div class="blue-banner-icon-box">
+            <svg class="blue-banner-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+              <polyline points="17 6 23 6 23 12"/>
+            </svg>
+          </div>
+          <span class="blue-banner-value-text">Results-Driven</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

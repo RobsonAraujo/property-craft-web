@@ -1,0 +1,186 @@
+<style>
+  .stats-wrapper {
+    padding: 3rem 1rem;
+    background-color: #1f3e5a;
+  }
+
+  .stats-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .stats-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .stats-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .stats-highlight {
+    position: relative;
+    display: inline-block;
+  }
+
+  .stats-highlight-bg {
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -4px;
+    bottom: -4px;
+    width: calc(100% + 20px);
+    height: calc(100% + 8px);
+    z-index: 0;
+  }
+
+  .stats-highlight-bg svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .stats-highlight-text {
+    position: relative;
+    padding: 0 0.5rem;
+    color: #1a1a1a;
+    font-weight: inherit;
+    z-index: 1;
+  }
+
+  .stats-subtitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .stats-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  .stats-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .stats-number {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+
+  .stats-label {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+  }
+
+  .stats-description {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  @media (min-width: 640px) {
+    .stats-wrapper {
+      padding: 4rem 1.5rem;
+    }
+
+    .stats-container {
+      padding: 0 1.5rem;
+    }
+
+    .stats-title {
+      font-size: 2.25rem;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .stats-wrapper {
+      padding: 5rem 2rem;
+    }
+
+    .stats-container {
+      padding: 0 2rem;
+    }
+
+    .stats-title {
+      font-size: 3rem;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>
+
+<div class="stats-wrapper">
+  <div class="stats-container">
+    <div class="stats-header">
+      <h2 class="stats-title">
+        Trusted by 
+        <span class="stats-highlight">
+          <span class="stats-highlight-bg">
+            <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+              <path d="M2,30 Q8,5 28,7 T58,11 Q78,9 98,13 T138,15 Q158,13 178,17 Q188,19 195,24 L198,50 Q192,56 178,54 Q158,51 138,53 T98,56 Q78,58 58,54 T28,51 Q8,56 2,51 Z" fill="#FFE66D" opacity="0.95" />
+            </svg>
+          </span>
+          <span class="stats-highlight-text">Property Owners</span>
+        </span>
+      </h2>
+      <p class="stats-subtitle">
+        Our track record speaks for itself
+      </p>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stats-card">
+        <div class="stats-number">500+</div>
+        <div class="stats-label">Properties Managed</div>
+        <div class="stats-description">Across Greater Boston</div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-number">98%</div>
+        <div class="stats-label">Client Satisfaction</div>
+        <div class="stats-description">Rated by property owners</div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-number">15+</div>
+        <div class="stats-label">Years Experience</div>
+        <div class="stats-description">In property management</div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-number">24/7</div>
+        <div class="stats-label">Support Available</div>
+        <div class="stats-description">For owners and tenants</div>
+      </div>
+    </div>
+  </div>
+</div>
+
