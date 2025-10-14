@@ -23,7 +23,7 @@ const ServiceAreas = () => {
               className="relative bg-cover bg-center bg-no-repeat h-[300px] lg:h-auto"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1064')",
+                  "url('https://images.squarespace-cdn.com/content/65ead168a72f9a0dae55ee97/8034acda-3df1-47bf-8133-50728bb3c57d/maps-location.jpg?content-type=image%2Fjpeg')",
               }}
             ></div>
 
