@@ -1,5 +1,12 @@
 import React from "react";
-import { Header, Hero, Process, ServiceAreas, Stats } from "./components";
+import {
+  Header,
+  Hero,
+  Process,
+  ServiceAreas,
+  Stats,
+  FinalCTA,
+} from "./components";
 import Footer from "../../app/components/Footer";
 import BlueBanner from "../../components/BlueBanner";
 import AssetTypes from "../../components/AssetTypes";
@@ -13,10 +20,9 @@ const HomePage = () => {
       <Process />
       <BlueBanner />
       <ServiceAreas />
-      {/* <CTABanner /> */}
-      <Stats />
       <AssetTypes />
-
+      <Stats />
+      <FinalCTA />
       <Footer />
     </div>
   );
