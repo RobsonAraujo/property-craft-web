@@ -11,8 +11,8 @@ const HomePage = () => {
       <Hero />
       <Process />
       <BlueBanner />
-      <ServiceAreas />
-      <CTABanner />
+      {/* <ServiceAreas /> */}
+      {/* <CTABanner /> */}
       <AssetTypes />
       <Footer />
     </div>
