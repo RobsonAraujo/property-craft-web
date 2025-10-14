@@ -6,6 +6,7 @@ import {
   ServiceAreas,
   Stats,
   FinalCTA,
+  CTABanner,
 } from "./components";
 import Footer from "../../app/components/Footer";
 import BlueBanner from "../../components/BlueBanner";
@@ -19,10 +20,12 @@ const HomePage = () => {
 
       <Process />
       <BlueBanner />
+      {/* <CTABanner /> */}
       <ServiceAreas />
       <AssetTypes />
       <Stats />
       <FinalCTA />
+      {/* <CTABanner /> */}
       <Footer />
     </div>
   );

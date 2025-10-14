@@ -53,6 +53,7 @@
   --color-brand-700: var(--brand-700);
   --color-brand-800: var(--brand-800);
   --color-brand-900: var(--brand-900);
+  --color-brand-950: var(--brand-950);
 }
 
 :root {
@@ -69,6 +70,7 @@
   --brand-700: #2e5d87;
   --brand-800: #1f3e5a;
   --brand-900: #101f2d;  /* Darkest shade */
+  --brand-950: #080f17;  /* Ultra dark */
   
   /* Theme Colors */
   --background: var(--brand-50);
@@ -153,5 +155,20 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  @keyframes pulse-subtle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.95;
+    }
+  }
+  
+  .animate-pulse-subtle {
+    animation: pulse-subtle 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 }
