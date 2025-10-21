@@ -7,6 +7,7 @@ import {
   Stats,
   FinalCTA,
   CTABanner,
+  CEOVideo,
 } from "./components";
 import Footer from "../../app/components/Footer";
 import BlueBanner from "../../components/BlueBanner";
@@ -24,6 +25,10 @@ const HomePage = () => {
       <ServiceAreas />
       <AssetTypes />
       <Stats />
+
+      {/* OPÇÃO RECOMENDADA: Entre Stats e FinalCTA - Reforça confiança antes do CTA final */}
+      <CEOVideo />
+
       <FinalCTA />
       {/* <CTABanner /> */}
       <Footer />

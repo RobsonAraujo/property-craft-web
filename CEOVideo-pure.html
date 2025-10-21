@@ -1,0 +1,175 @@
+<style>
+  .ceo-video-wrapper {
+    padding: 4rem 1rem;
+    background-color: #f9fafb;
+  }
+
+  .ceo-video-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .ceo-video-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .ceo-video-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1f3e5a;
+    background-color: #dcebf9;
+    border-radius: 9999px;
+  }
+
+  .ceo-video-badge-separator {
+    color: #3d7cb4;
+  }
+
+  .ceo-video-badge-link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .ceo-video-badge-link:hover {
+    color: #3d7cb4;
+  }
+
+  .ceo-video-badge-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .ceo-video-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .ceo-video-description {
+    font-size: 1.125rem;
+    color: #4b5563;
+    max-width: 48rem;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .ceo-video-arrow-wrapper {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ceo-video-arrow-circle {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: #1f3e5a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    animation: bounce 1s infinite;
+  }
+
+  .ceo-video-arrow-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #ffffff;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @media (min-width: 640px) {
+    .ceo-video-wrapper {
+      padding: 5rem 1.5rem;
+    }
+
+    .ceo-video-container {
+      padding: 0 1.5rem;
+    }
+
+    .ceo-video-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .ceo-video-wrapper {
+      padding: 6rem 2rem;
+    }
+
+    .ceo-video-container {
+      padding: 0 2rem;
+    }
+
+    .ceo-video-title {
+      font-size: 3rem;
+    }
+  }
+</style>
+
+<div class="ceo-video-wrapper">
+  <div class="ceo-video-container">
+    <div class="ceo-video-header">
+      <div class="ceo-video-badge">
+        <span>Warren Lizio</span>
+        <span class="ceo-video-badge-separator">•</span>
+        <a
+          href="https://www.linkedin.com/in/lizio/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ceo-video-badge-link"
+        >
+          <svg class="ceo-video-badge-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+
+      <h2 class="ceo-video-title">
+        A Message from Our CEO
+      </h2>
+
+      <p class="ceo-video-description">
+        Discover why PropertyCraft is committed to delivering exceptional
+        property management services and how we help property owners achieve
+        their investment goals.
+      </p>
+    </div>
+
+    <div class="ceo-video-arrow-wrapper">
+      <div class="ceo-video-arrow-circle">
+        <svg class="ceo-video-arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+

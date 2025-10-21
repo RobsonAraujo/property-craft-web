@@ -4,29 +4,29 @@ import HighlightText from "../../../components/HighlightText";
 const Stats = () => {
   const stats = [
     {
-      number: "500+",
-      label: "Properties Managed",
-      description: "Across Greater Boston",
-    },
-    {
-      number: "98%",
-      label: "Client Satisfaction",
-      description: "Rated by property owners",
-    },
-    {
-      number: "15+",
-      label: "Years Experience",
-      description: "In property management",
-    },
-    {
       number: "24/7",
-      label: "Support Available",
-      description: "For owners and tenants",
+      label: "Emergency Coverage",
+      description: "For urgent issues anytime",
+    },
+    {
+      number: "Responsive",
+      label: "Guaranteed Replies",
+      description: "Within 24 hours",
+    },
+    {
+      number: "Transparent",
+      label: "Pricing",
+      description: "No hidden fees",
+    },
+    {
+      number: "Local",
+      label: "Boston Neighborhoods",
+      description: "Deep knowledge",
     },
   ];
 
   return (
-    <section className="py-12 bg-brand-800 sm:py-16 lg:py-20">
+    <section className="py-12 bg-[#003963] sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
@@ -43,7 +43,7 @@ const Stats = () => {
               key={index}
               className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center hover:bg-white/20 transition-all duration-300"
             >
-              <div className="text-4xl font-bold text-white mb-2">
+              <div className="text-3xl font-bold text-white mb-2">
                 {stat.number}
               </div>
               <div className="text-lg font-semibold text-white mb-1">
