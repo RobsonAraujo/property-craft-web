@@ -12,6 +12,7 @@ import {
 import Footer from "../../app/components/Footer";
 import BlueBanner from "../../components/BlueBanner";
 import AssetTypes from "../../components/AssetTypes";
+import Divider from "../../components/Divider";
 
 const HomePage = () => {
   return (
@@ -28,6 +29,8 @@ const HomePage = () => {
 
       {/* OPÇÃO RECOMENDADA: Entre Stats e FinalCTA - Reforça confiança antes do CTA final */}
       <CEOVideo />
+
+      <Divider />
 
       <FinalCTA />
       {/* <CTABanner /> */}

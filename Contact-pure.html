@@ -1,0 +1,278 @@
+<style>
+    .contact-page {
+      min-height: 100vh;
+      background-color: #ffffff;
+    }
+  
+    .contact-section {
+      /* padding: 4rem 1rem; */
+      padding: 0 !important;
+      background-color: #ffffff;
+    }
+  
+    .contact-container {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    .contact-header {
+      max-width: 48rem;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+  
+    .contact-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+  
+    .contact-description {
+      font-size: 1.125rem;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+  
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+  
+    .contact-form-column {
+      /* Placeholder for form */
+    }
+  
+    .contact-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .contact-info-card {
+      background-color: #1f3e5a;
+      border-radius: 1rem;
+      padding: 2rem;
+      color: #ffffff;
+    }
+  
+    .contact-info-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      color: white;
+    }
+  
+    .contact-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .contact-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .contact-info-icon {
+      flex-shrink: 0;
+      width: 3rem;
+      height: 3rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .contact-info-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  
+    .contact-info-content h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+  
+    .contact-info-content a,
+    .contact-info-content p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
+      transition: color 0.2s;
+      line-height: 1.5;
+    }
+  
+    .contact-info-content a:hover {
+      color: #ffffff;
+    }
+    
+    .contact-info-content p {
+      margin: 0;
+    }
+  
+    .contact-advice-card {
+      background-color: #f9fafb;
+      border-radius: 1rem;
+      padding: 2rem;
+      border: 1px solid #e5e7eb;
+    }
+  
+    .contact-advice-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 1rem;
+    }
+  
+    .contact-advice-text {
+      font-size: 0.875rem;
+      color: #4b5563;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+  
+    .contact-advice-link {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.875rem;
+      color: #1f3e5a;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+  
+    .contact-advice-link:hover {
+      color: #2e5d87;
+    }
+  
+    @media (min-width: 640px) {
+      .contact-section {
+        padding: 5rem 1.5rem;
+      }
+  
+      .contact-container {
+        padding: 0 1.5rem;
+      }
+  
+      .contact-title {
+        font-size: 3rem;
+      }
+    }
+  
+    @media (min-width: 1024px) {
+      .contact-section {
+        padding: 6rem 2rem;
+      }
+  
+      .contact-container {
+        padding: 0 2rem;
+      }
+  
+      .contact-title {
+        font-size: 3.75rem;
+      }
+  
+      .contact-grid {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  </style>
+  
+  <div class="contact-page">
+    <!-- Header would go here -->
+  
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h1 class="contact-title">Get In Touch</h1>
+        <p class="contact-description">
+          Ready to experience professional property management? Fill out the
+          form below and we'll get back to you within 24 hours.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+          <!-- FORM PLACEHOLDER - Your form goes here -->
+          <div class="contact-form-column">
+            <!-- Contact form will be inserted here -->
+          </div>
+  
+          <!-- Sidebar -->
+          <div class="contact-sidebar">
+            <!-- Contact Information Card -->
+            <div class="contact-info-card">
+              <h2 class="contact-info-title">Contact Information</h2>
+  
+              <div class="contact-info-list">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <h3>Phone</h3>
+                    <a href="tel:+16173220033">(617) 322-0033</a>
+                  </div>
+                </div>
+  
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                      <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <h3>Email</h3>
+                    <a href="mailto:hello@propertycraft.com">hello@propertycraft.com</a>
+                  </div>
+                </div>
+  
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                      <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <h3>Locations</h3>
+                    <p>
+                       - Braintree<br />
+                      - Boston
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Property Management Advice Card -->
+            <div class="contact-advice-card">
+              <h3 class="contact-advice-title">Property Management Advice</h3>
+              <p class="contact-advice-text">
+                Looking for expert advice? Schedule a free 30-minute consultation
+                with our property management specialists.
+              </p>
+              <a href="/about-us" class="contact-advice-link">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer would go here -->
+  </div>
+  
+  

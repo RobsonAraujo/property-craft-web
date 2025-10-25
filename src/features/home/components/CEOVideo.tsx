@@ -3,7 +3,7 @@ import { Linkedin, ChevronDown } from "lucide-react";
 
 const CEOVideo = () => {
   return (
-    <section className="py-16 bg-gray-50 sm:py-20 lg:py-24">
+    <section className="py-16 bg-white sm:py-20 lg:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-3 px-4 py-2 mb-4 text-sm font-semibold text-brand-800 bg-brand-100 rounded-full">

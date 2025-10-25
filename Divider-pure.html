@@ -1,0 +1,92 @@
+<style>
+  .divider-wrapper {
+    position: relative;
+    height: 8rem;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .divider-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .divider-text-container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divider-text-badge {
+    background-color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #b8d7f3;
+  }
+
+  .divider-text {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1f3e5a;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+</style>
+
+<div class="divider-wrapper">
+  <svg
+    class="divider-svg"
+    viewBox="0 0 1440 128"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2" />
+        <stop offset="25%" stop-color="#fbbf24" stop-opacity="0.5" />
+        <stop offset="50%" stop-color="#fcd34d" stop-opacity="0.6" />
+        <stop offset="75%" stop-color="#fbbf24" stop-opacity="0.5" />
+        <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2" />
+      </linearGradient>
+      
+      <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#d97706" stop-opacity="0.3" />
+        <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.7" />
+        <stop offset="100%" stop-color="#d97706" stop-opacity="0.3" />
+      </linearGradient>
+      
+      <linearGradient id="waveGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#1f3e5a" stop-opacity="0.2" />
+        <stop offset="30%" stop-color="#f59e0b" stop-opacity="0.4" />
+        <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.4" />
+        <stop offset="100%" stop-color="#1f3e5a" stop-opacity="0.2" />
+      </linearGradient>
+    </defs>
+    
+    <path
+      d="M0,64 C240,32 480,96 720,64 C960,32 1200,96 1440,64 L1440,128 L0,128 Z"
+      fill="url(#waveGradient1)"
+    />
+    
+    <path
+      d="M0,80 C240,48 480,112 720,80 C960,48 1200,112 1440,80 L1440,128 L0,128 Z"
+      fill="url(#waveGradient2)"
+    />
+    
+    <path
+      d="M0,96 C240,64 480,128 720,96 C960,64 1200,128 1440,96 L1440,128 L0,128 Z"
+      fill="url(#waveGradient3)"
+    />
+  </svg>
+  
+  <div class="divider-text-container">
+    <div class="divider-text-badge">
+      <span class="divider-text">PropertyCraft</span>
+    </div>
+  </div>
+</div>
